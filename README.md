@@ -2,7 +2,7 @@
 
 On Ubuntu 16.04.1 LTS
 
-* Upload studyquiz.sh on Server
+* Upload smartlocker.sh on Server
 * Start it
 * **Wait until finished !!!**
 * Check IP of your Server with ifconfig
