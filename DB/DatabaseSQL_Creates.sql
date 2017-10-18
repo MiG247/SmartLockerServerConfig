@@ -4,7 +4,7 @@ create table combo(
 	id int(10) not null unique,
 	name char(255) not null unique,
 	price float(10) not null,
-	photo BLOB(),
+	photo BLOB,
 	primary key(id)
 );
 
@@ -19,7 +19,7 @@ create table food_combo(
 create table food(
 	id int(10) not null unique,
 	name char(255) not null unique,
-	photo BLOB(),
+	photo BLOB,
 	primary key(id)
 );
 
@@ -46,7 +46,7 @@ create table orders(
 );
 
 create table schedule(
-	pickup_time time(7) not null unique,
+	pickup_time time(0) not null unique,
 	available boolean(1),
 	primary key(pickup_time)
 );
@@ -58,7 +58,7 @@ create table locker(
 );
 
 create table locker_schedule(
-	pickup_time time(7) not null,
+	pickup_time time(0) not null,
 	locker_nr int(10) not null,
 	orders_id int(10) not null,
 	primary key(pickup_time, locker_nr, orders_id),
