@@ -34,7 +34,7 @@ create table locker(
 );
 
 create table orders(
-	id int(10) not null unique auto_increment,
+	id char(255) not null unique,
 	combo_id int(10) not null,
 	ordered_at timestamp default current_timestamp, -- not in ERM but might be usefull for a orders
 	primary key(id),
@@ -44,7 +44,7 @@ create table orders(
 create table locker_schedule(
 	pickup_time time(0) not null, -- should be time, got to convert it hh:mm
 	locker_nr int(10) not null,
-	orders_id int(10) not null,
+	orders_id char(255) not null,
 	primary key(pickup_time, locker_nr, orders_id),
 	foreign	key(pickup_time) references schedule (pickup_time),
 	foreign key (locker_nr) references locker (nr),
