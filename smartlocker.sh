@@ -1,6 +1,6 @@
 # Time Consuming 14:00 to 16:00
 
-PASSWORD='test123'
+PASSWORD='%r0gram';
 
 wget https://raw.githubusercontent.com/dokku/dokku/v0.10.4/bootstrap.sh;
 echo  $PASSWORD | sudo -S DOKKU_TAG=v0.10.4 bash bootstrap.sh 
