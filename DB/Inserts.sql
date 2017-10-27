@@ -20,7 +20,7 @@ INSERT INTO ingredient (id, name) VALUES (08, "raw potatoe");
 INSERT INTO ingredient (id, name) VALUES (09, "raw broccoli");
 INSERT INTO ingredient (id, name) VALUES (10, "raw potatoes");
 
-INSERT INTO schedule (pickup_time, available) VALUES ('11:00:00', 1);
+INSERT INTO schedule (pickup_time, available) VALUES ('11:00:00', 0);
 INSERT INTO schedule (pickup_time, available) VALUES ('11:15:00', 1);
 INSERT INTO schedule (pickup_time, available) VALUES ('11:30:00', 1);
 INSERT INTO schedule (pickup_time, available) VALUES ('11:45:00', 1);
