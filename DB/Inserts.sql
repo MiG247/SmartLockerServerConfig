@@ -1,6 +1,6 @@
-INSERT INTO combo (id, name, price) VALUES (01, "meatcombo", 20.5);
-INSERT INTO combo (id, name, price) VALUES (02, "vegetablecombo", 15.8);
-INSERT INTO combo (id, name, price) VALUES (03, "meatvegetablecombo", 18.3);
+INSERT INTO combo (id, name, price, combo_available) VALUES (01, "meatcombo", 20.5, 1);
+INSERT INTO combo (id, name, price, combo_available) VALUES (02, "vegetablecombo", 15.8, 1);
+INSERT INTO combo (id, name, price, combo_available) VALUES (03, "meatvegetablecombo", 18.3, 1);
 
 INSERT INTO food (id, name) VALUES (01, "spicy meat");
 INSERT INTO food (id, name) VALUES (02, "sweet and sour meat");
@@ -20,10 +20,10 @@ INSERT INTO ingredient (id, name) VALUES (08, "raw potatoe");
 INSERT INTO ingredient (id, name) VALUES (09, "raw broccoli");
 INSERT INTO ingredient (id, name) VALUES (10, "raw potatoes");
 
-INSERT INTO schedule (pickup_time, available) VALUES ('11:00:00', 0);
-INSERT INTO schedule (pickup_time, available) VALUES ('11:15:00', 1);
-INSERT INTO schedule (pickup_time, available) VALUES ('11:30:00', 1);
-INSERT INTO schedule (pickup_time, available) VALUES ('11:45:00', 1);
+INSERT INTO schedule (pickup_time, schedule_available) VALUES ('11:00:00', 1);
+INSERT INTO schedule (pickup_time, schedule_available) VALUES ('11:15:00', 1);
+INSERT INTO schedule (pickup_time, schedule_available) VALUES ('11:30:00', 1);
+INSERT INTO schedule (pickup_time, schedule_available) VALUES ('11:45:00', 1);
 
 INSERT INTO locker (nr, PIN) VALUES (1001, 9009);
 INSERT INTO locker (nr, PIN) VALUES (1002, 3453);

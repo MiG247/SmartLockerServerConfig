@@ -4,6 +4,7 @@ create table combo(
 	id int(10) not null unique,
 	name char(255) not null unique,
 	price float(10) not null,
+	combo_available boolean not null,
 	photo LONGBLOB,
 	primary key(id)
 );
@@ -11,7 +12,6 @@ create table combo(
 create table food(
 	id int(10) not null unique,
 	name char(255) not null unique,
-	photo LONGBLOB,
 	primary key(id)
 );
 
@@ -23,7 +23,7 @@ create table ingredient(
 
 create table schedule(
 	pickup_time time(0) not null unique, -- should be time, using int got to convert hh.mm
-	available boolean,
+	schedule_available boolean not null,
 	primary key(pickup_time)
 );
 
