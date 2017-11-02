@@ -37,6 +37,7 @@ create table orders(
 	id char(255) not null unique,
 	combo_id int(10) not null,
 	ordered_at timestamp default current_timestamp, -- not in ERM but might be usefull for a orders
+	served boolean not null,
 	primary key(id),
 	foreign key(combo_id) references combo (id)
 );

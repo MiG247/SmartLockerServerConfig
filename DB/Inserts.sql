@@ -30,10 +30,10 @@ INSERT INTO locker (nr, PIN) VALUES (1002, 3453);
 INSERT INTO locker (nr, PIN) VALUES (1003, 6668);
 INSERT INTO locker (nr, PIN) VALUES (1004, 7655);
 
-INSERT INTO orders (id, combo_id) VALUES ('df7cca36-3d7a-40f4-8f06-ae03cc22f041', 01);
-INSERT INTO orders (id, combo_id) VALUES ('df7cca36-3d7a-40f4-8f06-ae03cc22f042', 02);
-INSERT INTO orders (id, combo_id) VALUES ('df7cca36-3d7a-40f4-8f06-ae03cc22f043', 01);
-INSERT INTO orders (id, combo_id) VALUES ('df7cca36-3d7a-40f4-8f06-ae03cc22f044', 03);
+INSERT INTO orders (id, combo_id, served) VALUES ('df7cca36-3d7a-40f4-8f06-ae03cc22f041', 01, 0);
+INSERT INTO orders (id, combo_id, served) VALUES ('df7cca36-3d7a-40f4-8f06-ae03cc22f042', 02, 0);
+INSERT INTO orders (id, combo_id, served) VALUES ('df7cca36-3d7a-40f4-8f06-ae03cc22f043', 01, 0);
+INSERT INTO orders (id, combo_id, served) VALUES ('df7cca36-3d7a-40f4-8f06-ae03cc22f044', 03, 0);
 
 INSERT INTO locker_schedule (pickup_time, locker_nr, orders_id) VALUES ('11:00:00', 1001, 'df7cca36-3d7a-40f4-8f06-ae03cc22f041');
 INSERT INTO locker_schedule (pickup_time, locker_nr, orders_id) VALUES ('11:15:00', 1002, 'df7cca36-3d7a-40f4-8f06-ae03cc22f042');
