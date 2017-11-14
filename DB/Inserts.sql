@@ -1,3 +1,7 @@
+insert into staff (name, password, admin) values ("Admin", "930024886a900aa06219939ac11682e4f0658abd24f2e148ccf49063e71c3c3d775da4d3b151da37463ca0134316fd4565609c1cdb9158884988fa9ce2496a46", 1); -- test1233
+insert into staff (name, password, admin) values ("Clerk", "b889ef6d96c5f1049db70915199def48a19024169a54aec9de4bc9843c9c6aa33c66d5537aedb160191a12912e84cc45dc62aa309bd8041ec9bc6c61b46587fb", 0); -- test1231
+insert into staff (name, password, admin) values ("Locker", "074b196b45731fe81526c92a3fd43a2a49e53823e4a4fd8a7bf8d052065513626497e504dd0ba65e6f3462f3cb47a348db306229c80329adab6075370e4a28dd", 0); -- test1232
+
 INSERT INTO combo (id, name, price, combo_available) VALUES (01, "meatcombo", 20.5, 1);
 INSERT INTO combo (id, name, price, combo_available) VALUES (02, "vegetablecombo", 15.8, 1);
 INSERT INTO combo (id, name, price, combo_available) VALUES (03, "meatvegetablecombo", 18.3, 1);

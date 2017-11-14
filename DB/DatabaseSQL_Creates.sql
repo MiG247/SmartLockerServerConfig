@@ -1,4 +1,10 @@
 -- Creates Database for Smart Locker project
+create table staff(
+	name char(255) not null unique,
+	password char(255) not null,
+	admin boolean not null,
+	primary key(name)
+);
 
 create table combo(
 	id int(10) not null unique,
