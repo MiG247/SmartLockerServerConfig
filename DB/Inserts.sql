@@ -1,6 +1,6 @@
 insert into staff (name, password, admin) values ("Admin", "930024886a900aa06219939ac11682e4f0658abd24f2e148ccf49063e71c3c3d775da4d3b151da37463ca0134316fd4565609c1cdb9158884988fa9ce2496a46", 1); -- test1233
-insert into staff (name, password, admin) values ("Clerk", "b889ef6d96c5f1049db70915199def48a19024169a54aec9de4bc9843c9c6aa33c66d5537aedb160191a12912e84cc45dc62aa309bd8041ec9bc6c61b46587fb", 0); -- test1231
-insert into staff (name, password, admin) values ("Locker", "074b196b45731fe81526c92a3fd43a2a49e53823e4a4fd8a7bf8d052065513626497e504dd0ba65e6f3462f3cb47a348db306229c80329adab6075370e4a28dd", 0); -- test1232
+insert into staff (name, password, admin) values ("Clerk", "69db2946350db43e831e2f1ca7701c80ff99e458a7ac7aab5bea21027eff0d9292a6e7cc672e4e3b54070043188e61122815d8aab9c011fc6ecf393da498f2f0", 0); -- test1231
+insert into staff (name, password, admin) values ("Locker", "0f7d9e2a834d301143393a24cb64f3a6d9145ce7603ae216ba692e68be4bb05413dee4cf3a9420b5b9a356b1046b8733759bfe076fc1b5fde6409012ac16bef7", 0); -- test1232
 
 INSERT INTO combo (id, name, price, combo_available) VALUES (01, "meatcombo", 20.5, 1);
 INSERT INTO combo (id, name, price, combo_available) VALUES (02, "vegetablecombo", 15.8, 1);

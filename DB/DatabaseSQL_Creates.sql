@@ -7,29 +7,29 @@ create table staff(
 );
 
 create table combo(
-	id int(10) not null unique,
+	id int(10) not null unique auto_increment,
 	name char(255) not null unique,
 	price float(10) not null,
-	combo_available boolean not null,
+	combo_available boolean not null default 0,
 	photo LONGBLOB,
 	primary key(id)
 );
 
 create table food(
-	id int(10) not null unique,
+	id int(10) not null unique auto_increment,
 	name char(255) not null unique,
 	primary key(id)
 );
 
 create table ingredient(
-	id int(10) not null unique,
+	id int(10) not null unique auto_increment,
 	name char(255) not null unique,
 	primary key(id)
 );
 
 create table schedule(
-	pickup_time time(0) not null unique, -- should be time, using int got to convert hh.mm
-	schedule_available boolean not null,
+	pickup_time time(0) not null unique,
+	schedule_available boolean not null default 0,
 	primary key(pickup_time)
 );
 
