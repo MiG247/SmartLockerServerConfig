@@ -29,10 +29,10 @@ INSERT INTO schedule (pickup_time, schedule_available) VALUES ('11:15:00', 1);
 INSERT INTO schedule (pickup_time, schedule_available) VALUES ('11:30:00', 1);
 INSERT INTO schedule (pickup_time, schedule_available) VALUES ('11:45:00', 1);
 
-INSERT INTO locker (nr, PIN) VALUES (1, 9009);
-INSERT INTO locker (nr, PIN) VALUES (2, 3453);
-INSERT INTO locker (nr, PIN) VALUES (3, 6668);
-INSERT INTO locker (nr, PIN) VALUES (4, 7655);
+INSERT INTO locker (nr, PIN) VALUES (1, 19009);
+INSERT INTO locker (nr, PIN) VALUES (2, 23453);
+INSERT INTO locker (nr, PIN) VALUES (3, 36668);
+INSERT INTO locker (nr, PIN) VALUES (4, 47655);
 
 INSERT INTO orders (id, combo_id, served) VALUES ('df7cca36-3d7a-40f4-8f06-ae03cc22f041', 01, 0);
 INSERT INTO orders (id, combo_id, served) VALUES ('df7cca36-3d7a-40f4-8f06-ae03cc22f042', 02, 0);
